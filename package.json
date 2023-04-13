@@ -1,12 +1,10 @@
 {
-  "script": {
-    "build": "npm install typescript; tsc",
-    "serve": "node dist/my-server.js"
-  },
   "name": "expressjs",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "npm install typescript; tsc",
+    "serve": "node dist/my-server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
